@@ -1,0 +1,50 @@
+{
+	"teams": [
+		{
+			"link": "#",
+			"name": "سید ناصر حسنی",
+			"position": "طراحی",
+			"avatar": "tmpavatar.png"
+		},
+		{
+			"link": "#",
+			"name": "جلال عظیمی",
+			"position": "طراح و توسعه دهنده",
+			"avatar": "tmpavatar.png"
+		},
+		{
+			"link": "#",
+			"name": "اصغر آقا",
+			"position": "طراح و توسعه دهنده",
+			"avatar": "tmpavatar.png"
+		},
+		{
+			"link": "#",
+			"name": "عباس آقا",
+			"position": "طراح و توسعه دهنده",
+			"avatar": "tmpavatar.png"
+		}
+	],
+	"sponsors": [
+		{
+			"link":"#",
+			"name":"ایوند",
+			"logo":"evand.jpg"
+		},
+		{
+			"link":"#",
+			"name":"جاب اینجا",
+			"logo":"jobinja.png"
+		},
+		{
+			"link":"#",
+			"name":"ایوند",
+			"logo":"evand.jpg"
+		},
+		{
+			"link":"#",
+			"name":"جاب اینجا",
+			"logo":"jobinja.png"
+		}
+	]
+}

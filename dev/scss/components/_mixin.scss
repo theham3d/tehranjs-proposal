@@ -1,0 +1,46 @@
+/**********************************************************************/
+
+//Mixins
+
+/**********************************************************************/
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin placeholder {
+
+  &::-webkit-input-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &:-ms-input-placeholder { @content; } 
+  &:-moz-placeholder { @content; }
+
+}
+@mixin res($size){
+  @media all and(max-width:$size){
+    @content;
+  }
+}
+
+
+
+
+/**********************************************************************/
+
+//Functions
+
+/**********************************************************************/
+@function em($pxval, $base: 16) {
+  @return ($pxval / $base) * 1em;
+}
+
+@function rem($pxval, $base: 16) {
+  //@return $pxval * 1px;
+  @return ($pxval / $base) * 1rem;
+}

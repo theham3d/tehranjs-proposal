@@ -1,0 +1,36 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/irsans/IRANSansWeb_Bold.woff') format('woff');   /* Bold Version */
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/irsans/IRANSansWeb_Medium.woff') format('woff');   /* Medium Version */
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/irsans/IRANSansWeb_Light.woff') format('woff');   /* Light Version */
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src:url('../fonts/irsans/IRANSansWeb_UltraLight.woff') format('woff');   /* UltraLight Version */
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/irsans/IRANSansWeb.woff') format('woff');   /* Expanded Version */
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat-Bold'), url('../fonts/Montserrat.woff2') format('woff2');
+}
